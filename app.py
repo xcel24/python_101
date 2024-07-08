@@ -83,14 +83,54 @@ course = "Python for beginners"
 # for patt in temp:
 #     print("*" * patt)
 
-numbers = [3, 6, 2, 18, 4, 10]
+# numbers = [3, 6, 2, 18, 4, 10]
+#
+# max_value = numbers[0]
+#
+# for num in numbers[1:]:
+#     if num > max_value:
+#         max_value = num
+#
+# print(max_value)
 
-max_value = numbers[0]
+#2D Lists
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 8]
+# ]
+#
+# for i in matrix:
+#     for j in i:
+#         print(j)
+#     print("***")
 
-for num in numbers[1:]:
-    if num > max_value:
-        max_value = num
+#List methods
+numbers = [1, 2, 3, 4, 5, 6]
 
-print(max_value)
+# numbers.append(20)
+# numbers.remove(3)
+# numbers.insert(2, 24)
+# numbers.pop()
+# numbers.clear()
 
+# print(numbers.count(2))
+# numbers.sort(reverse=True)
+# print(numbers)
 
+#tuples and unpacking
+# coordinates = (1, 2, 3)
+#
+# x, y, z = coordinates
+#
+# print(f"Values of x is {x}, y is {y} and z is {z}")
+
+#dictionary
+customer = {
+    "name": "Prateek",
+    "age": 28,
+    "occupation": "Software Developer",
+    "is_stud": True
+}
+
+print(customer.get("age"))
